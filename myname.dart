@@ -1,8 +1,8 @@
 void main() {
   var name = myname();
-  print("my name is $name");
+  print("my name is ${name}");
 }
 
-String myname() {
+myname() {
   return ("gift");
 }
